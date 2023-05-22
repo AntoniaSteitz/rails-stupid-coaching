@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+
+}
+
+a {
+
+}
+
+/* <div class="input-group mb-3">
+<input type="text" class="form-control rounded-3" placeholder="Ask" aria-label="Ask" aria-describedby="submit-button">
+<button class="btn btn-primary rounded-3" type="submit" id="submit-button">Submit</button>
+</div> */

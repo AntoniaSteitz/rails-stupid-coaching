@@ -1,0 +1,18 @@
+<div class="container" class="mb-3">
+  <!-- Content here -->
+<div class="mb-1 p-3" >
+  <div class="bg-light">
+    <h4 class="mb-3"><%= params[:question] %></h4>
+    <h4 class="fst-italic"><%= "– You"  %></h4>
+  </div>
+</div>
+
+<div class="mb-1 p-3" >
+  <div class="bg-light">
+    <h4><%= @answer %></h4>
+    <h4 class="fst-italic"><%= "– Your Coach"  %></h4>
+  </div>
+</div>
+
+  <%= link_to 'Ask another question', '/ask' %>
+</div>
